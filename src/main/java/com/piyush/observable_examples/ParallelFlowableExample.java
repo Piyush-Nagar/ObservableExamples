@@ -12,7 +12,7 @@ class FirstExample {
   private FirstExample() {
   }
   public static void main(String[] args) {
-    Logger logger = Logger.getLogger("FirstExample");
+    Logger logger = Logger.getLogger("FirstExample"); //logger
     Flowable.fromIterable(ImmutableList.of("abc", "def"))
         .parallel()
         .runOn(Schedulers.computation())
