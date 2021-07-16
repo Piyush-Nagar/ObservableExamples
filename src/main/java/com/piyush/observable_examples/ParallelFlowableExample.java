@@ -20,5 +20,6 @@ class FirstExample {
         .doOnNext(x -> logger.info("Thread is" + Thread.currentThread().getName()))
         .sequential()
         .subscribe();
+    
   }
 }
