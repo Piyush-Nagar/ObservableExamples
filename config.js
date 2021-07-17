@@ -2,9 +2,9 @@ module.exports = {
   hostRules: [
     {
       hostType: 'maven',
-      matchHost: 'https://artifactory.yourcompany.com/',
-      username: process.env.ARTIFACTORY_USERNAME,
-      password: process.env.ARTIFACTORY_PASSWORD,
+      matchHost: 'https://github.com/Piyush-Nagar/ObservableExamples',
+      username: 'Piyush-Nagar',
+      password: 'Piyush13579',
     },
   ],
 };
